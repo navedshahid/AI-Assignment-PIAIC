@@ -1,0 +1,5 @@
+number1 = float(input("enter the number1: "))
+number2 = float(input("enter the number2: "))
+print(str(number1 + number2) + " this addition")
+print(str(number1 * number2) + " this multiplication")
+print(str(number1 / number2) + " this is division")
