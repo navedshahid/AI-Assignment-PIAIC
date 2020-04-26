@@ -1,7 +1,9 @@
-number1 = float(input("enter the number1: "))
-number2 = float(input("enter the number2: "))
-if number2 < 0
-  print("number is less than 0, please provide number greater than 0")
-print(str(number1 + number2) + " this addition")
-print(str(number1 * number2) + " this multiplication")
-print(str(number1 / number2) + " this is division")
+print("Assignment by PIAIC121574")
+number1 = int(input("Enter the number 1: "))
+number2 = int(input("Enter the number 2: "))
+print(str(number1 + number2) + " This is addition of number 1 & 2")
+print(str(number1 * number2) + " this is multiplication of number 1 & 2")
+if number2 > 0:
+      print(str(number1 / number2) + " this is the division of number 1 & 2")
+else:
+    print("The number 2 is a zero so we cannot proceed for division")
